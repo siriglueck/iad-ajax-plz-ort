@@ -25,6 +25,7 @@ A: Statistisches Bundesamt
 Q: Welche Fehleingaben sind vom User zu erwarten und wie werden diese abgefangen bzw. behandelt?
 
 A:
+
 - Groß- bzw. Kleinschreibung: Suche nicht case-sensitiv umsetzen
 - Sonderzeichen, falsche Rechtschreibung, Buchstabendreher
 - führende oder nachfolgende Leerzeichen
@@ -100,6 +101,7 @@ A: JSON, weil ein Objekt geliefert wird und die Verarbeitung komfortabler ist. X
     - Nein: Meldung und nächster Zeilendurchlauf
 - Das zweidimensionale Ausgabe-ARray in einen JSON-String konvertieren
   - Struktur Ausgabe-Arrays
+  
   ```
   Array (
     [0] => Array ( 'ort' => 'Aachen', 'plz' => '12345', 'bundesland' => 'Nordrhein-Westfahlen' ),
@@ -107,6 +109,7 @@ A: JSON, weil ein Objekt geliefert wird und die Verarbeitung komfortabler ist. X
     ...
   )
   ```
+
 - aus dem erzeugten Ausgabe-Array eine JSON-Zeichenkette geneirieren und an das XHR-Objekt zurückliefern
 - CSV-Datei schließen
 
